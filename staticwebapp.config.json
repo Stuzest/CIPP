@@ -90,6 +90,22 @@
       "route": "/api/AddCondtionalAccess",
       "allowedRoles": ["admin"]
     }
+    {
+      "route": "/api/AddCAExclusion",
+      "allowedRoles": ["admin"]
+    }
+    {
+      "route": "/api/AddCATemplate",
+      "allowedRoles": ["admin"]
+    }
+    {
+      "route": "/api/ListNamedLocations",
+      "allowedRoles": ["admin"]
+    }
+    {
+      "route": "/api/AddNamedLocations",
+      "allowedRoles": ["admin"]
+    }
   ],
   "navigationFallback": {
     "rewrite": "index.html",
